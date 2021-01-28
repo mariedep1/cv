@@ -11,7 +11,7 @@
 <body>
 <!--header-->
         <header >
-            <h1 class="text-center p-1">Développeurse Web - Marie DEPALLE</h1>
+            <h1 class="text-center p-1">Développeuse Web - Marie DEPALLE</h1>
             <div class="bg"></div>
             <div class="d-flex justify-content-center"><img src="images/photoprofil.jpg" alt="photo du CV" id="photo" >
             </div>
