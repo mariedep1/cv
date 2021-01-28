@@ -13,5 +13,5 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.8.9
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "marie-depalle-87"
+          heroku_app_name: "marie-depalle-cv"
           heroku_email: "m.depalle87@gmail.com"
