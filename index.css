@@ -1,36 +1,42 @@
 header{
     width: 100%;
-    height: 20vh;
-    background-color: #c5c1cc;
-    color: #383340;
+    height: 27vh;
+    color:whitesmoke;
+    background-image: url(images/book.jpg);
+}
+#fleche {
+    width: 4%;
 }
 #photo{
     border: 3px solid white;
     border-radius: 100%;
-    z-index: 1;
 }
 
 #menu{
-    background-color: #383340;
+    background-color: #072D35;
+    border-bottom: 4px solid white;
 }
-#lien1, #lien2, #lien3, #lien4{
-    color: #c5c1cc;
+#lien1, #lien2, #lien3, #lien4, #lien5, #lien6{
+    color: whitesmoke;
     font-size: 1.5em;
 }
-#lien1:hover, #lien2:hover, #lien3:hover, #lien4:hover{
-    color: white;
+#lien1:hover, #lien2:hover, #lien3:hover, #lien4:hover, #lien5:hover, #lien6:hover{
+    color: #b67022;
 }
-
+main{
+    background-color: #FCCCCA;
+}
 
 section{
-    box-shadow: 0px 0px 10px #a099b0;
+    box-shadow: 0px 0px 10px black;
 }
 .card-title{
-    color: #383340;
+    color: #02312B;
 }
 
 .date{
-    background-color: #a099b0;
+    background-color: #E4C3C1;
+    border-radius: 13px;
     font-size: 1.5em;
 }
 .emploi, .formations{
@@ -38,9 +44,9 @@ section{
     font-size: 1.5em;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 900px){
     #photo{
-        width:30%;
+        width:20%;
     }
     .date{
         font-size: 1em;
@@ -48,4 +54,5 @@ section{
     .emploi, .formations{
         font-size: 1em;
     }
+    
 }
