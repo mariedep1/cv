@@ -15,3 +15,4 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "marie-depalle-cv"
           heroku_email: "m.depalle87@gmail.com"
+          usedocker: true
