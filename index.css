@@ -5,7 +5,7 @@ header{
     background-image: url(images/book.jpg);
 }
 #fleche {
-    width: 4%;
+    width: 5%;
 }
 #photo{
     border: 3px solid white;
@@ -61,5 +61,8 @@ main{
     }
     .emploi, .formations{
         font-size: 1em;
+    }
+    #fleche {
+        width: 8%;
     }
 }
