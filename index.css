@@ -10,20 +10,25 @@ Style par élements
 ************************/
 header {
   width: 100%;
-  height: 33vh;
   color: whitesmoke;
   background-image: url(images/book.jpg);
+  background-position: top center;
 }
-#photo {
+header img {
   border: 3px solid white;
   border-radius: 100%;
+  margin-bottom: -60px;
+  z-index: 1;
 }
 #menu {
   background-color: #072d35;
-  border-bottom: 4px solid white;
+  border-top: 4px solid white;
 }
 #fleche {
   width: 5%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
 #lien1,
 #lien2,
@@ -74,10 +79,7 @@ main {
 /************************
 Media Queries
 ************************/
-@media screen and (max-width: 900px) {
-  header {
-    height: 30vh;
-  }
+@media screen and (max-width: 990px) {
   #photo {
     width: 20%;
   }
@@ -90,5 +92,14 @@ Media Queries
   }
   #fleche {
     width: 8%;
+  }
+  header h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header h1 {
+    font-size: 15px;
   }
 }
